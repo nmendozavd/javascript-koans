@@ -94,7 +94,7 @@ describe("About Applying What We Have Learnt", function() {
       .reduce(function (s, i) { return ingredientCount[i] = (ingredientCount[i] || 0) + 1 })
       .value();
 
-    expect(ingredientCount['mushrooms']).toBe(ingredientCount);
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 
   /*********************************************************************************/
